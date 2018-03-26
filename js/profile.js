@@ -1,4 +1,8 @@
-<script type="text/javascript">
+
+
+
+//This file is to enables popus in profiles and linked to profile.js
+//By Snigdha
         	    var pop1=document.getElementById('firsty');
         	    var span1 = document.getElementsByClassName("close1")[0];
         	function prof1() {
@@ -87,5 +91,3 @@
     pop6.style.display = "none";
     document.body.style.backgroundColor="white";
 }
-
-</script>
