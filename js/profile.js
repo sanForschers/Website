@@ -1,4 +1,4 @@
-
+<script type="text/javascript">
         	    var pop1=document.getElementById('firsty');
         	    var span1 = document.getElementsByClassName("close1")[0];
         	function prof1() {
@@ -17,6 +17,9 @@
 	document.body.style.backgroundColor="white";
 
 }
+
+
+
               var pop2=document.getElementById('secondy');
         	  var span2 = document.getElementsByClassName("close2")[0];
         	function prof2() {
@@ -85,5 +88,4 @@
     document.body.style.backgroundColor="white";
 }
 
-
-
+</script>
