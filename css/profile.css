@@ -43,13 +43,12 @@ span.sixth {
 span.font {
 	font-family: arial;
 	font-size: 22px;
-    float: center;
   	position: relative;
-	
-    margin-left: 10px;
+	float: center;
+    margin-left: 5px;
 }
 
-.popup {
+.popup {                                                    
 	margin-left:400px;
 	display: none;
     z-index: 1;
@@ -57,34 +56,36 @@ span.font {
 	float: center;
 	
 	color: black;
-	width:500px;
-	height: 200px;
+	max-width:600px;
+	max-height: 300px;
 	border-radius: 20px;
 	padding: 10px;
 	border: 2px solid black;
 	overflow: auto;
-    margin-top: -80px;
-      background-color: #fefefe;
-    
+    margin-top: -350px;
+    background-color: #fefefe;
+    box-sizing: border-box;
+    	
   
 
 }
 
 .popup1 {
 	margin-left:400px;
-	margin-top: -220px;
+	margin-top: -500px;
 	display: none;
     z-index: 1;
 	position: fixed;
 	float: center;
 	 background-color: #fefefe;
 	color: black;
-	width:500px;
-	height: 200px;
+    max-width:600px;
+	max-height: 300px;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 8px;
 	border: 2px solid black;
 	overflow: auto;
+	 box-sizing: border-box;
 
 
 }
@@ -113,14 +114,15 @@ span.font {
 .profile {
 		font-family: arial;
 	font-size: 22px;
-    float: center;
-  	position: relative;
-	float: right;
+  	float: right;
     padding-right: 80px;
     padding-left: 10px;
-    padding-top: 40px;
+    padding-top: 60px;
+ 
 }
 
 .profiletext {
+
 	color: #696969;
+
 }
