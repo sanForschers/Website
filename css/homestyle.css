@@ -6,6 +6,7 @@
 body{
 	height: 100%;
 	width: 100%;
+	overflow: auto;
 }
 .home{
 	width: 100%;
@@ -32,21 +33,7 @@ body{
 	top: -40px;
 	border-radius: 50%;
 }
-.profile{
-	float: left;
-	margin-right: 75px;
-	margin-left: 150px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	position: relative;
-	top: -50px;
-}
-.profiletext{
-	float: center;
-	position: relative;
-	left: 140px;
-	top: -140px;
-}
+
 .contactform{
 	clear: left;
 	clear: center;
