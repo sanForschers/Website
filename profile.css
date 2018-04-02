@@ -9,7 +9,6 @@ img.pic {
    display: inline-block;
    height: 80px;
    max-width: 80px;	
-   position: relative;
    border-radius: 50%;
 }
 
@@ -42,7 +41,7 @@ span.sixth {
 
 
 span.font {
-	font-family: Helvetica;
+	font-family: arial;
 	font-size: 22px;
   	position: relative;
 	float: center;
