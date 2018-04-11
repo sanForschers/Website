@@ -15,11 +15,6 @@ ul{
 	position: relative;
 	
 }
-.button{
-	border: 2px solid red;
-    padding: 10px;
-    border-radius: 25px;
-}
 .carousel-inner{
 	max-height: 600px;
 }
