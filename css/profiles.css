@@ -1,7 +1,47 @@
 .modal1{
-	border-radius: 10px;
+	border-radius: 20px;
 	height: 220px;
 	max-width: 450px;
-	box-shadow: 10px 10px 5px grey ;
+	box-shadow: 10px 10px 5px grey;
 }
 
+.close{
+	border-radius: 30px;
+}
+.close:hover{
+	background: #3b3a30;
+}
+.image:hover{
+   cursor: pointer;
+}
+
+.name{
+	padding-top: 30px;
+}
+
+.thumb{
+	border:1px solid grey;
+	border-radius: 2px;
+	padding: 0.5px;
+}
+
+.border{
+	border-style: solid;
+     border-left-color:#e6e2d3;
+     border-right-color: #3e4444;
+     border-top-color:#3e4444;
+     border-bottom-color:#e6e2d3;
+     border-width: 6px;
+   border-radius: 50%;
+
+}
+.border:hover{
+
+	border-style: solid;
+     border-left-color:#3e4444;
+     border-right-color:#e6e2d3;
+     border-top-color:#3e4444;
+     border-bottom-color:#e6e2d3;
+     border-width: 6px;
+   border-radius: 50%;
+}

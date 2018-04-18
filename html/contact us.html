@@ -1,0 +1,34 @@
+<html>
+<head>
+    <script src="aws-sdk/dist/aws-sdk.min.js"></script>
+    <script type="text/javascript">
+        var LPAWS = {};
+
+        // Initialize the Amazon Cognito credentials provider
+        AWS.config.region = 'eu-west-1'; // Region
+        AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+            IdentityPoolId: 'eu-west-1:e4c24108-5050-42f8-ac0b-761c46aa947f',
+        });
+
+        LPAWS.sendToTopic = function() {
+            var sns = new AWS.SNS();
+            var params = {
+                //Message: 'Hello topic', /* required */
+                Message: document.querySelector('#input-msg').value,
+                Subject: 'Browser SNS publish - contact form',
+                TopicArn: 'arn:aws:sns:eu-west-1:717437904155:com-website-contact-form'
+            };
+            sns.publish(params, function(err, data) {
+                if (err) console.log(err, err.stack); // an error occurred
+                else     console.log(data);           // successful response
+            });
+        };
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" name="msg" id="input-msg"/>
+        <button onclick="LPAWS.sendToTopic(); return false;">Send to SNS topic</button>
+    </form>
+</body>
+</html>

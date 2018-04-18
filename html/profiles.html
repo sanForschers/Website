@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="profiles.css">
+<link rel="stylesheet" href="../css/profiles.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="profiles.js"></script>
@@ -22,7 +22,7 @@
      <!-- //// nested media objects used ////!-->
 			<div class="media">
     <div class="media-left ">
-    	      <img src="user.png" onclick="document.getElementById('id01').style.display='block'" class="media-object img-circle w3-hover-opacity" style="width:100px">
+    	      <img src="../img/sohardh.jpg" onclick="document.getElementById('id01').style.display='block'" class="media-object img-circle w3-hover-opacity" style="width:100px">
     </div>
 
     <div class="media-body">
@@ -96,7 +96,7 @@
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
        <div class="media">
        <div class="media-left">
-        <img src="user.png" class="media-object img-circle" style="width:180px">
+        <img src="../img/sohardh.jpg" class="media-object img-circle" style="width:180px">
        </div>
        <div class="media-body">
       <h4 class="media-heading">Sohardh Chobera</h4>
@@ -197,6 +197,14 @@ window.onclick = function(event) {
     }
 }
 
+var modal2 = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
 
 </script>
 </body>
