@@ -1,8 +1,10 @@
 .modal1{
+
 	border-radius: 20px;
 	height: 220px;
 	max-width: 450px;
-	box-shadow: 10px 10px 5px grey;
+ border: 1px solid #3e4444;
+    box-shadow: 10px 10px 5px #686256;
 }
 
 .close{
