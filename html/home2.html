@@ -50,8 +50,8 @@
     <ul class="nav navbar-nav navbar-right">
       <li ><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Home</a></li>
       <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">About Us</a></li>
-      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Projects</a></li>
-      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Achievements</a></li>
+      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="projects.html">Projects</a></li>
+      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="achievements.html">Achievements</a></li>
     </nav>
 
 
@@ -103,12 +103,12 @@
 <div class="col-lg-4">
      <!-- //// nested media objects used ////!-->
       <div class="media">
-    <div class="media-left ">   
+    <div class="media-left ">
   <p class="border">
    <img src="user.png" onclick="document.getElementById('id01').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
   </p>
 
-           
+
     </div>
 
     <div class="media-body">
@@ -159,7 +159,7 @@
     <div class="col-lg-4">
       <div class="media">
     <div class="media-left ">
-  
+
       <p class="border">
       <img src="user.png" onclick="document.getElementById('id05').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
 </p>
@@ -187,7 +187,7 @@
 
 <!-- ///containers for modalsx///!-->
 
-  <div id="id01" class="w3-modal">                         
+  <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-animate-zoom modal1">
       <div class="w3-container">
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
@@ -375,18 +375,19 @@ window.onclick = function(event) {
                  <br><br><br><br><br><br><br>
 
          <!-- /////////Contact form starts here //////////!-->
-        <div class="contactform" class="row justify-content-center align-self-center">
-          <h1>Contact Us</h1> <br>
-          <form class="contact" action="index.html" method="post">
-            Name <br>
-            <input type="text" name="name" placeholder="Enter your name"><br><br>
-            Email-ID <br>
-            <input type="text" name="mail" placeholder="Enter your email"><br><br>
-            Message <br>
-            <input type="text" name="message" placeholder="Enter your message"><br><br>
-            <input class="submit" type="submit" name="submit" value="Submit">
-          </form>
-        </div><hr class="line" width="100%">
+         <div class="row justify-content-center align-self-center">
+         <div class="contactform" class="row justify-content-center align-self-center" style="margin-left: 50%;">
+           <h1>Contact Us</h1> <br>
+           <form class="contact" action="index.html" method="post">
+             Name <br>
+             <input type="text" name="name" placeholder="Enter your name"><br><br>
+             Email-ID <br>
+             <input type="text" name="mail" placeholder="Enter your email"><br><br>
+             Message <br>
+             <input type="text" name="message" placeholder="Enter your message"><br><br>
+             <input class="submit" type="submit" name="submit" value="Submit">
+           </form>
+         <div></div><hr class="line" width="100%">
         <div class="footer">
           <font class="copyright" size="2" color="#514c4e">SanFroschers &copy; 2018</font>
           <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-facebook.png" alt="facebook" height="20px" width="20px">
