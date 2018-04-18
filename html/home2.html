@@ -1,3 +1,4 @@
+
 <!-- this file is the source code for the homepage of the website created by sujay and snigdha !-->
 
 
@@ -6,111 +7,378 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>SanFroschers</title>
-    <link rel="stylesheet" type="text/css" href="../css/homestyle.css">
+
     <link rel="stylesheet" type="text/css" href="../css/profile.css">
+    <link rel="stylesheet" type="text/css" href="../css/homestyle.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="profiles.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 </head>
-  </head>
+
   <body>
-    <div class="home">
-      <div class="heading">
-        <h1>San_Froschers</h1><br>
+
+
+    <!-- /////////Nav bar starts ////////!-->
+    <nav class="navbar-expand-xl|lg|md|sm navbar-default navbar-fixed-top">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!--Nav bar collapse !-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="../img/logo.png" style="float: left">
+      <a class="navbar-brand w3-hover-text-black" style="font-size: 24px">
+        san_Forcshers</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </li>
+      </ul>
+
+    <!--Nav bar-simple  !-->
+    <ul class="nav navbar-nav navbar-right">
+      <li ><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Home</a></li>
+      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">About Us</a></li>
+      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Projects</a></li>
+      <li><a class=" w3-bar-item w3-button w3-mobile w3-ripple w3-hover-black" role="button" href="#">Achievements</a></li>
+    </nav>
+
+
+
+
+
+<!-- ////////Carousel starts /////////!-->
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" >
+    <div class="item active ">
+      <img src="../img/logo.png" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="../img/bck.png" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="../img/1.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+
+<!-- //////////// Profiles start from here /////////////!-->
+       <div class="container">
+  <h1 class="text-center page-header">TEAM</h1>
+  <div class="row">
+    <!-- ////each column contains two nested media objects ////!-->
+       <!-- //// first col starts here ////!-->
+<div class="col-lg-4">
+     <!-- //// nested media objects used ////!-->
+      <div class="media">
+    <div class="media-left ">   
+  <p class="border">
+   <img src="IMG_6197.jpg" onclick="document.getElementById('id01').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+  </p>
+
+           
+    </div>
+
+    <div class="media-body">
+      <h4 class="media-heading name">Sohardh Chobera</h4>
+      <br><br><br>
+
+
+      <div class="media">
+        <div class="media-left">
+            <p class="border">
+          <img src="user.png"  onclick="document.getElementById('id02').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+        </p>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading name">Sirish Bhudolia</h4>
+  </div>
+</div>
+</div>
+</div>
+</div>
+ <!-- //// second col starts here ////!-->
+    <div class="col-lg-4">
+      <div class="media">
+    <div class="media-left">
+        <p class="border">
+      <img src="user.png" onclick="document.getElementById('id03').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+    </p>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading name">Sujay Srivastava</h4>
+      <br><br><br>
+
+
+      <div class="media">
+        <div class="media-left">
+            <p class="border">
+          <img src="user.png" onclick="document.getElementById('id04').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+        </p>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading name">Shriyesh Chandra</h4>
+  </div>
+</div>
+</div>
+</div>
+</div>
+ <!-- //// third col starts here ////!-->
+    <div class="col-lg-4">
+      <div class="media">
+    <div class="media-left ">
+  
+      <p class="border">
+      <img src="user.png" onclick="document.getElementById('id05').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+</p>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading name">Sparsh Tayal</h4>
+      <br><br><br>
+
+
+      <div class="media">
+        <div class="media-left">
+            <p class="border">
+          <img src="user.png" onclick="document.getElementById('id06').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+        </p>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading name">Snigdha Bhatnagar</h4>
+        </div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- ///containers for modalsx///!-->
+
+  <div id="id01" class="w3-modal">                         
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+       <div class="media">
+       <div class="media-left">
+              <p class="border">
+        <img src="user.png" class="media-object img-circle" style="width:180px">
+      </p>
+       </div>
+       <div class="media-body">
+      <h4 class="media-heading name">Sohardh Chobera</h4>
+      <br>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" height="20px" class="thumb"  width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" alt="instagram" height="20px" class="thumb"  width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" alt="mail" height="20px" class="thumb"  width="20px">
+          <img  src="../img/icons/icons8-twitter.png" alt="twitter" height="20px" class="thumb" width="20px">
+          <img  src="../img/icons/icons8-phone.png" alt="phone" height="20px" class="thumb"  width="20px">
+    </footer>
+    </div>
+    </div>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+        <div class="media">
+       <div class="media-left">
+              <p class="border">
+        <img src="user.png" class="media-object img-circle" style="width:180px">
+      </p>
+      </div>
+      <div class="media-body">
+      <h4 class="media-heading name">Sirish Bhudolia</h4>
+      <br>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" height="20px" class="thumb"  width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" alt="instagram" class="thumb"  height="20px" width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" alt="mail" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-twitter.png" alt="twitter" class="thumb"  height="20px" width="20px">
+          <img  src="../img/icons/icons8-phone.png" alt="phone" class="thumb"  height="20px" width="20px">
+    </footer>
+      </div>
+      </div>
       </div>
     </div>
-      <div class="menu">
-        <button type="submit" name="home">Home</button>&nbsp
-        <button type="submit" name="about">About Us</button>&nbsp
-        <button type="submit" name="projects">Projects</button>&nbsp
-        <button type="submit" name="achievements">Achievements</button>
-      </div>
-        <img class="groupphoto" src="../img/icons/sample-logo.png" alt="group photo" width="100%" height="290px"><br><br>
+  </div>
 
-
-
-<!-- Profiles start from here !-->
-
-        <div>
-    <h2 class="heading">TEAM</h2><br><br>
-    <div>
-      <span class="first">
-      <img class="pic" onclick="prof1() ; back();"  src="../img/user.png">
-      <span class="font">Sohardh Chobera</span></span>
-
-      <span class="popup" id="firsty">
-        <span class="close1">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><div class="profile">Sohardh Chobera<br><br><div class="profiletext">Developer</div></div></span>
-  
-        </span>
-        
-            <span class="second">
-      <img class="pic" onclick="prof2(); back();" src="../img/user.png">
-      <span class="font"> Sirish Budholia
-      </span>
-      </span>
-      <span class="popup" id="secondy">
-        <span class="close2">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><span class="profile">Sirish Budholia<br><br><span class="profiletext">Developer</span></span></span>
-  
-        </span>
-
-      
-      <span class="third">
-      <img class="pic" onclick="prof3(); back();" src="../img/user.png">
-      <span class="font">Sparsh Tayal
-    </span>
-    </span>
-
-    <span class="popup" id="thirdy">
-        <span class="close3">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><span class="profile">Sparsh Tayal<br><br><span class="profiletext">Developer</span></span></span>
-  
-        </span>
-      
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+        <div class="media">
+        <div class="media-left">
+                <p class="border">
+        <img src="user.png" class="media-object img-circle" style="width:180px">
+       </p>
         </div>
-        <br><br><br>
-        <div>
-            <span class="fourth">
-      <img class="pic" onclick="prof4(); back();" src="../img/user.png">
-      <span class="font"> Sujay Srivastava</span></span>
-
-        <span class="popup1" id="fourthy">
-        <span class="close4">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><span class="profile">Sujay Srivastava<br><br><span class="profiletext">Developer</span></span></span>
-  
-        </span>
-        
-            <span class="fifth">
-      <img class="pic" onclick="prof5(); back();" src="../img/user.png">
-      <span class="font">
-      Shriyesh Chandra</span>
-      </span>
-
-        <span class="popup1" id="fifthy">
-        <span class="close5">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><span class="profile">Shriyesh Chandra<br><br><span class="profiletext">Developer</span></span></span>
-  
-        </span>
-
-      <span class="sixth">
-      <img class="pic" onclick="prof6(); back();" src="../img/user.png">
-      <span class="font">
-      Snigdha Bhatnagar</span>
-    </span>
-      <span class="popup1" id="sixthy">
-        <span class="close6">&times;</span>
-        <span><img style="border-radius: 50%;" alt="pofile picture" src="../img/user.png"><span class="profile">Snigdha Bhatnagar<br><br><span class="profiletext">Developer</span></span></span>
-  
-        </span>
-
-        </div>
+       <div class="media-body">
+       <h4 class="media-heading name">Sujay Srivastava</h4>
         <br>
-         <span style=" color: #696969 ; float:  center; margin-left: 440px; text-shadow: 2px;"><b>_______________________________________________</b></span>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" class="thumb"  height="20px" width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" alt="instagram" class="thumb"  height="20px" width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" alt="mail" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-twitter.png" alt="twitter" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-phone.png" alt="phone" class="thumb"  height="20px" width="20px">
+    </footer>
+      </div>
+     </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+        <div class="media">
+         <div class="media-left">
+                <p class="border">
+          <img src="user.png" class="media-object img-circle" style="width:180px">
+        </p>
+         </div>
+         <div class="media-body">
+          <h4 class="media-heading name">Shriyesh Chandra</h4>
+           <br>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" class="thumb" height="20px" width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" alt="instagram" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" alt="mail" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-twitter.png" alt="twitter" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-phone.png" alt="phone" class="thumb" height="20px" width="20px">
+    </footer>
+         </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="id05" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+       <div class="media">
+       <div class="media-left">
+              <p class="border">
+        <img src="user.png" class="media-object img-circle" style="width:180px">
+      </p>
+       </div>
+       <div class="media-body">
+         <h4 class="media-heading name">Sparsh Tayal</h4>
+          <br>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" class="thumb"  height="20px" width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" alt="instagram" class="thumb"  height="20px" width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" alt="mail" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-twitter.png" alt="twitter" class="thumb" height="20px" width="20px">
+          <img  src="../img/icons/icons8-phone.png" alt="phone" class="thumb"  height="20px" width="20px">
+    </footer>
+       </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="id06" class="w3-modal modal">
+    <div class="w3-modal-content w3-animate-zoom modal1">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright close">&times;</span>
+       <div class="media">
+        <div class="media-left">
+                <p class="border">
+         <img src="user.png" class="media-object img-circle" style="width:180px">
+       </p>
+        </div>
+        <div class="media-body">
+         <h4 class="media-heading name">Snigdha Bhatnagar</h4>
+          <br>
+      <br>
+      <footer class="w3-container">
+      <img src="../img/icons/icons8-facebook.png" alt="facebook" class="thumb" height="20px" width="20px">
+          <img src="../img/icons/icons8-instagram_new.png" class="thumb" alt="instagram" height="20px" width="20px">
+          <img  src="../img/icons/icons8-filled_message.png" class="thumb" alt="mail" height="20px" width="20px">
+          <img  src="../img/icons/icons8-twitter.png" class="thumb" alt="twitter" height="20px" width="20px">
+          <img  src="../img/icons/icons8-phone.png" class="thumb" alt="phone" height="20px" width="20px">
+    </footer>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<script>
+// Get the modal
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  var modal = document.getElementById('id01');
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  var modal = document.getElementById('id02');
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
          <br><br><br><br><br><br><br>
-        
 
-         <!-- Contact form starts here !-->
-
-        <div class="contactform">
+         <!-- /////////Contact form starts here //////////!-->
+        <div class="contactform" class="row justify-content-center align-self-center">
           <h1>Contact Us</h1> <br>
           <form class="contact" action="index.html" method="post">
             Name <br>
@@ -124,11 +392,11 @@
         </div><hr class="line" width="100%">
         <div class="footer">
           <font class="copyright" size="2" color="#514c4e">SanFroschers &copy; 2018</font>
-          <img class="thumbnail" src="../img/icons/icons8-facebook.png" alt="facebook" height="20px" width="20px">
-          <img class="thumbnail" src="../img/icons/icons8-instagram_new.png" alt="instagram" height="20px" width="20px">
-          <img class="thumbnail" src="../img/icons/icons8-filled_message.png" alt="mail" height="20px" width="20px">
-          <img class="thumbnail" src="../img/icons/icons8-twitter.png" alt="twitter" height="20px" width="20px">
-          <img class="thumbnail" src="../img/icons/icons8-phone.png" alt="phone" height="20px" width="20px">
+          <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-facebook.png" alt="facebook" height="20px" width="20px">
+          <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-instagram_new.png" alt="instagram" height="20px" width="20px">
+          <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-filled_message.png" alt="mail" height="20px" width="20px">
+          <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-twitter.png" alt="twitter" height="20px" width="20px">
+          <img class="thumbnail" class="d-inline bg-success" src="../img/icons/icons8-phone.png" alt="phone" height="20px" width="20px">
         </div>
 
   </body>
@@ -136,5 +404,7 @@
 
 <!--Linking profile with its js for the popus!-->
 <script type="text/javascript" src="../js/profile.js"> </script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
