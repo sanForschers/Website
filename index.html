@@ -2,12 +2,11 @@
 <!-- this file is the source code for the homepage of the website created by sujay and snigdha !-->
 
 
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width" initial-scale="1.0">
-
+     <link rel="stylesheet" type="text/css" href="./css/contact.css">
     <link rel="stylesheet" type="text/css" href="./css/profiles.css">
     <link rel="stylesheet" type="text/css" href="./css/homestyle.css">
 <!-- Latest compiled and minified CSS -->
@@ -95,8 +94,8 @@
 
 
 <!-- //////////// Profiles start from here /////////////!-->
-       <div class="container">
-  <h1 class="text-center page-header">TEAM</h1>
+       <div class="container" style="font-family: helvetica">
+  <h1 class="text-center page-header" style="font-family: helvetica">TEAM</h1>
   <div class="row">
     <!-- ////each column contains two nested media objects ////!-->
        <!-- //// first col starts here ////!-->
@@ -119,7 +118,7 @@
       <div class="media">
         <div class="media-left">
             <p class="border">
-          <img src="./img/user.png"  onclick="document.getElementById('id02').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+          <img src="./img/sirish.jfif"  onclick="document.getElementById('id02').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
         </p>
         </div>
         <div class="media-body">
@@ -145,7 +144,7 @@
       <div class="media">
         <div class="media-left">
             <p class="border">
-          <img src="./img/user.png" onclick="document.getElementById('id04').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+          <img src="./img/shriyesh.jpg" onclick="document.getElementById('id04').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
         </p>
         </div>
         <div class="media-body">
@@ -161,7 +160,7 @@
     <div class="media-left ">
 
       <p class="border">
-      <img src="./img/user.png" onclick="document.getElementById('id05').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+      <img src="./img/sparsh.jpg" onclick="document.getElementById('id05').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
 </p>
     </div>
     <div class="media-body">
@@ -172,7 +171,7 @@
       <div class="media">
         <div class="media-left">
             <p class="border">
-          <img src="./img/user.png" onclick="document.getElementById('id06').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
+          <img src="./img/snigdha1.jfif" onclick="document.getElementById('id06').style.display='block'" class="media-object img-circle w3-hover-opacity image" style="width:100px">
         </p>
         </div>
         <div class="media-body">
@@ -222,7 +221,7 @@
         <div class="media">
        <div class="media-left">
               <p class="border">
-        <img src="./img/user.png" class="media-object img-circle" style="width:180px">
+        <img src="./img/sirish.jfif" class="media-object img-circle" style="width:180px">
       </p>
       </div>
       <div class="media-body">
@@ -249,7 +248,7 @@
         <div class="media">
         <div class="media-left">
                 <p class="border">
-        <img src="./img/user.png" class="media-object img-circle" style="width:180px">
+        <img src="./img/Sujay.jpg" class="media-object img-circle" style="width:180px">
        </p>
         </div>
        <div class="media-body">
@@ -276,7 +275,7 @@
         <div class="media">
          <div class="media-left">
                 <p class="border">
-          <img src="./img/user.png" class="media-object img-circle" style="width:180px">
+          <img src="./img/shriyesh.jpg" class="media-object img-circle" style="width:180px">
         </p>
          </div>
          <div class="media-body">
@@ -303,7 +302,7 @@
        <div class="media">
        <div class="media-left">
               <p class="border">
-        <img src="./img/user.png" class="media-object img-circle" style="width:180px">
+        <img src="./img/sparsh.jpg" class="media-object img-circle" style="width:180px">
       </p>
        </div>
        <div class="media-body">
@@ -330,7 +329,7 @@
        <div class="media">
         <div class="media-left">
                 <p class="border">
-         <img src="./img/user.png" class="media-object img-circle" style="width:180px">
+         <img src="./img/snigdha1.jfif" class="media-object img-circle" style="width:180px">
        </p>
         </div>
         <div class="media-body">
@@ -372,23 +371,27 @@ window.onclick = function(event) {
 }
 
 </script>
-                 <br><br><br><br><br><br><br>
+                 <br><br><br>
+                 <h1 class="text-center page-header"></h1><br><br>
 
          <!-- /////////Contact form starts here //////////!-->
-        <div class="contactform" class="row justify-content-center align-self-center" style="margin-left: 45%;">
-          <h1>Contact Us</h1> <br>
+        <div class="contactform row justify-content-center align-self-center text-center" style="font-family: helvetica">
+          <h2>Contact Us</h2> <br>
+        </div>
+        <div class="contactform  align-self-center " style="margin-left:40%; font-family: helvetica">
           <form class="contact" action="index.html" method="post">
+           
             Name <br>
-            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <input type="text" class="input-field" name="name" placeholder="Enter your full name"><br><br>
             Email-ID <br>
-            <input type="text" name="mail" placeholder="Enter your email"><br><br>
+            <input type="text" class="input-field" name="mail" placeholder="Enter your email"><br><br>
             Message <br>
-            <input type="text" name="message" placeholder="Enter your message"><br><br>
-            <input class="submit" type="submit" name="submit" value="Submit">
+            <input type="text" class="input-field" name="message" placeholder="Your message goes here"><br>
+            <input class="submit-button" type="submit" name="submit" value="Submit >" style="color: white; font-family: helvetica;">
           </form>
         </div><hr class="line" width="100%">
         <div style="margin-left: 45%" class="footer">
-          <font class="copyright" size="2" color="#514c4e">SanFroschers &copy; 2018</font>
+          <font class="copyright text-center" size="2" color="#514c4e">SanForschers &copy; 2018</font>
           <footer class="w3-container">
       <img src="./img/icons/icons8-facebook.png" alt="facebook" class="thumb"  height="20px" width="20px">
           <img src="./img/icons/icons8-instagram_new.png" alt="instagram" class="thumb"  height="20px" width="20px">

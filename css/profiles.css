@@ -1,10 +1,9 @@
 .modal1{
-
 	border-radius: 20px;
 	height: 220px;
 	max-width: 450px;
- border: 1px solid #3e4444;
-    box-shadow: 10px 10px 5px #686256;
+  border: 1px solid #3e4444;
+  box-shadow: 10px 10px 5px #686256;
 }
 
 .close{
@@ -14,7 +13,7 @@
 	background: #3b3a30;
 }
 .image:hover{
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .name{

@@ -1,0 +1,32 @@
+.input-field{
+	border-bottom-width: 2px;
+	border-bottom-color:#e6e2d3;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	width:35%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	transition: width 0.4s;
+
+
+}
+
+.input-field:focus{
+	border-bottom-color: orange;
+	border-bottom-width: 4px;
+	width:40%;
+}
+.submit-button{
+	color: white;
+	width: 25%;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to right,#330033,#3333FF); /* Standard syntax (must be last) */
+    border-radius: 40px;
+    border-color: none;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+.submit-button:hover{
+	width: 35%;
+}
